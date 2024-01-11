@@ -1,0 +1,359 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Inter:wght@800;900&family=Montserrat:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kenia&family=Lobster&display=swap'); */
+  @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Kenia&family=Lobster&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@700;800&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,800;1,800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    /* background-color: #112B3C !important; */
+    font-family: 'Montserrat', sans-serif;
+    /* background-color: #DAF5FF !important; */
+    background-image: url(/bg.jpg);
+}
+.mt-15{
+    margin-top: 2rem;
+}
+h1{
+    /* font-family: 'Inter', sans-serif; */
+    font-family: 'Poppins', sans-serif;
+}
+.fs-2{
+    font-family: 'Poppins', sans-serif !important;
+}
+.head{
+    font-size: 1.5rem;
+    text-align: center;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    padding: 23rem 0rem;
+
+}
+
+h1{
+    font-weight: 700 !important;
+}
+
+p{
+    font-size: 1.2rem;
+    margin-top: -20px;
+
+}
+
+
+
+.hamburger{
+    display: flex;
+    justify-content: flex-end;
+}
+
+a{
+    text-decoration: none !important;
+}
+a:hover{
+    color: red !important;
+    font-size: large;
+    font-weight: bolder !important;
+}
+
+.head a{
+    text-decoration: none !important;
+    color: white !important;
+}
+
+.logo{
+    width: 5rem;
+}
+.about{
+    font-size: 1.5rem;
+    padding: 4rem;
+    color: white;
+
+    
+}
+.main{
+    padding: 0;
+}
+.about1{
+    display: flex;
+    font-size: 1rem;
+    color: white;
+    align-items: center;
+    gap: 7rem;
+    
+}
+.sub{
+    color: white;
+    font-family: 'Lobster', sans-serif;
+}
+.fs-2{
+    font-family: 'Abril Fatface', serif;
+    font-size: 3.5rem;
+}
+.con1{
+    list-style-type: none;
+    text-decoration: none;
+    align-items: center;
+}
+.insta{
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+/* ------------------about section starts here-------------------- */
+
+.about-h1{
+    gap: 7rem;
+}
+
+.about-img{
+    width: 30rem;
+}
+ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    gap: 1rem;
+    justify-content: center;
+    
+}
+
+/* ------------------about section ends here-------------------- */
+
+
+/* ------------------skills section starts here-------------------- */
+.skills{
+    padding: 3rem;
+    color: white;
+}
+
+.skills li{
+    border: 2px solid white;
+    padding: 1rem;
+}
+
+.skills li:hover{
+    font-family: 'Inter', sans-serif;
+    background-color: white ;
+    color: black;
+    font-weight: bolder;
+}
+/* ------------------skills section ends here-------------------- */
+.contact{
+    padding: 3rem;
+    color: white;
+}
+.projects{
+    padding: 3rem;
+    color: white;
+}
+.btn-primary{
+    background-color: white;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+
+}
+.card-body{
+    padding: 2rem;
+
+}
+.card-text{
+    font-size: 1rem;
+}
+.all-card{
+    display: flex;
+    gap: 1rem;
+}
+
+.white{
+    color: white !important;
+    background-color: #1dadb4 !important;
+}
+
+.white:hover{
+    color: white !important;
+    background-color: #155357 !important;
+}
+
+.resume{
+    padding: 3rem;
+    color: white;
+}
+.b-submit{
+    text-align: center;
+}
+
+.btn-info{
+    --bs-btn-bg:  #2C7C80!important;
+    --bs-btn-color: white !important;
+    --bs-btn-hover-bg: #1dadb4 !important;
+    --bs-btn-active-bg: #0e3235!important;
+    --bs-btn-hover-color: white !important;
+}
+
+.btn-primary{
+    --bs-btn-bg:  #112B3C!important;
+    --bs-btn-color: white !important;
+    --bs-btn-hover-bg: #112B3C !important;
+    --bs-btn-active-bg: #0e3235!important;
+    --bs-btn-hover-color: white !important;
+}
+.resume1 h1{
+    font-family: 'Nanum Gothic', sans-serif;
+    display: flex;
+    gap: 2rem;
+}
+.phone{
+    height: 1rem;
+}
+.dresume{
+    margin-top: 1rem;
+    text-align: center;
+}
+.resume2{
+    height: 30rem;
+    width: 45rem;
+    margin-left: 20rem;
+    gap: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+.rbutton{
+    margin-top: 5rem;
+    margin-left: 15rem;
+    margin-right: 15rem;
+    text-align: center;
+    align-items: center;
+}
+.rbutton a{
+    background-color: #112B3C;
+    color: white;
+}
+/* ------------------media query  section starts here-------------------- */
+
+@media(max-width:769px){
+
+    p{
+        font-size: 1rem;
+    }
+
+    ul{
+        padding-left: 0 !important;
+    }
+
+    .about1{
+    display: flex;
+    flex-direction: column;
+    margin-top: 3rem;
+    gap: 2rem;
+    }
+
+    .skills ul{
+        flex-direction: column;
+    text-align: center;
+    margin-top: 5rem;
+    }
+
+    .about-h1,
+    .skills-h1,
+    .contact-h1,
+    .projects,
+    .resume{
+        text-align: center;
+    }
+}
+
+/*@media only screen and (max-width: 769px) {
+  body {
+    background-color: lightblue;
+  }
+}*/
+@media(max-width:769px){
+   .all-card{ display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+   }
+    .hamburger{
+    display:flex;
+    flex-direction: column;
+}
+.resume2{
+    height: 20rem;
+    width: 30rem;
+    margin-left: 5rem;
+}
+.rbutton{
+    margin-left: 10rem;
+    margin-right: 10rem;
+}
+}
+@media(max-width:425px){
+    .about-img {
+    width: 20rem;
+}
+.hamburger{
+    display:flex;
+    flex-direction: column;
+}
+.nav-ul{
+    font-size: 14px;
+}
+.logo {
+    width: 4rem;
+    display: flex;
+    align-items: baseline;
+    gap: 0.5rem;
+}
+.resume2{
+    margin-left: -5rem;
+}
+.contact1{
+    padding-top: 5rem;
+}
+}
+@media(max-width:376px){
+    .nav-ul {
+    font-size: 12px;
+}
+
+.about-img {
+    width: 18rem;
+}
+.about {
+    padding: 2rem;
+}
+.head{
+    padding: 15rem 0rem;
+}
+.hamburger{
+    display:flex;
+    flex-direction: column;
+}
+
+}
+
+@media(max-width:320px){
+    .nav-ul {
+    font-size: 9px;
+}
+
+
+.head{
+    padding: 15rem 0rem;
+}
+
+.head h1{
+    font-size: 1.9rem;
+}
+
+}
