@@ -13,7 +13,7 @@ body{
     /* background-color: #112B3C !important; */
     font-family: 'Montserrat', sans-serif;
     /* background-color: #DAF5FF !important; */
-    background-image: url(/bg.jpg);
+    background-image: url(bg.jpg) !important;
 }
 .mt-15{
     margin-top: 2rem;
@@ -35,8 +35,8 @@ h1{
     flex-direction: column;
     color: white;
     padding: 23rem 0rem;
-
 }
+
 
 h1{
     font-weight: 700 !important;
@@ -54,12 +54,16 @@ p{
     display: flex;
     justify-content: flex-end;
 }
+.nav-link{
+    color: black !important;
+    font-size: larger !important;
+}
 
 a{
     text-decoration: none !important;
 }
 a:hover{
-    color: red !important;
+    color: black !important;
     font-size: large;
     font-weight: bolder !important;
 }
@@ -88,6 +92,7 @@ a:hover{
     color: white;
     align-items: center;
     gap: 7rem;
+  
     
 }
 .sub{
