@@ -18,6 +18,7 @@ body{
 .mt-15{
     margin-top: 2rem;
 }
+
 h1{
     /* font-family: 'Inter', sans-serif; */
     font-family: 'Poppins', sans-serif;
@@ -46,6 +47,11 @@ p{
     font-size: 1.2rem;
     margin-top: -20px;
 
+}
+
+.dev-logo img{
+    border-radius: 20rem !important;
+    width: 3rem !important;
 }
 
 
