@@ -56,6 +56,7 @@ p{
 
 
 
+
 .hamburger{
     display: flex;
     justify-content: flex-end;
@@ -307,7 +308,15 @@ ul{
     margin-left: 10rem;
     margin-right: 10rem;
 }
+.dev-logo{
+    margin-left: 19rem;
 }
+}
+
+
+
+
+
 @media(max-width:425px){
     .about-img {
     width: 20rem;
@@ -331,7 +340,13 @@ ul{
 .contact1{
     padding-top: 5rem;
 }
+.dev-logo{
+    margin-left: 17rem;
 }
+}
+
+
+
 @media(max-width:376px){
     .nav-ul {
     font-size: 12px;
@@ -350,8 +365,14 @@ ul{
     display:flex;
     flex-direction: column;
 }
+.dev-logo{
+    margin-left: 14rem;
+}
 
 }
+
+
+
 
 @media(max-width:320px){
     .nav-ul {
@@ -365,6 +386,9 @@ ul{
 
 .head h1{
     font-size: 1.9rem;
+}
+.dev-logo{
+    margin-left: 11rem;
 }
 
 }
