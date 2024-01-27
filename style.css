@@ -1,17 +1,17 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Inter:wght@800;900&family=Montserrat:wght@400;500;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Kenia&family=Lobster&display=swap'); */
+
 @import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Kenia&family=Lobster&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@700;800&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,800;1,800&display=swap");
+
 * {
   margin: 0;
   padding: 0;
 }
 body {
-  /* background-color: #112B3C !important; */
   font-family: "Montserrat", sans-serif;
-  /* background-color: #DAF5FF !important; */
   background-image: url(bg.jpg) !important;
 }
 .mt-15 {
@@ -19,7 +19,6 @@ body {
 }
 
 h1 {
-  /* font-family: 'Inter', sans-serif; */
   font-family: "Poppins", sans-serif;
 }
 .fs-2 {
@@ -131,6 +130,7 @@ ul {
 /* ------------------about section ends here-------------------- */
 
 /* ------------------skills section starts here-------------------- */
+
 .skills {
   padding: 3rem;
   color: white;
@@ -147,7 +147,9 @@ ul {
   color: black;
   font-weight: bolder;
 }
+
 /* ------------------skills section ends here-------------------- */
+
 .contact {
   padding: 3rem;
   color: white;
@@ -238,6 +240,8 @@ ul {
 }
 /* ------------------media query  section starts here-------------------- */
 
+/* -------------------MOBILE 768 STARTS HERE -------------------------------*/
+
 @media (max-width: 769px) {
   p {
     font-size: 1rem;
@@ -267,14 +271,6 @@ ul {
   .resume {
     text-align: center;
   }
-}
-
-/*@media only screen and (max-width: 769px) {
-  body {
-    background-color: lightblue;
-  }
-}*/
-@media (max-width: 769px) {
   .all-card {
     display: flex;
     gap: 1rem;
@@ -298,6 +294,10 @@ ul {
     margin-left: 38rem;
   }
 }
+
+/* -------------------MOBILE 768 ENDS HERE -------------------------------*/
+
+/* -------------------MOBILE 425 STARTS HERE -------------------------------*/
 
 @media (max-width: 426px) {
   .about-img {
@@ -327,6 +327,10 @@ ul {
   }
 }
 
+/* -------------------MOBILE 425 ENDS HERE -------------------------------*/
+
+/* -------------------MOBILE 375 STARTS HERE -------------------------------*/
+
 @media (max-width: 376px) {
   .nav-ul {
     font-size: 12px;
@@ -350,6 +354,10 @@ ul {
   }
 }
 
+/*---------------------------- MOBILE 375 ENDS HERE HERE------------------------------- */
+
+/*------------------------------ MOBILE 320 STARTS HERE------------------------------- */
+
 @media (max-width: 321px) {
   .nav-ul {
     font-size: 9px;
@@ -366,3 +374,7 @@ ul {
     margin-left: 11rem;
   }
 }
+
+/* --------------------MOBILE 320 ENDS HERE---------------------------- */
+
+/* ------------------media query  section ENDS here-------------------- */
