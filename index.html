@@ -191,19 +191,40 @@
 
                     <div id="CONTACT" class="contact">
                       <h1 class="contact-h1">CONTACT</h1>
-                          <form action="mailto:officialyhite@gmail.com" method="post" enctype="text/plain">
+                          <form action="https://api.web3forms.com/submit" method="POST">
+                            <input type="hidden" name="access_key" value="300d8184-5c91-4bf4-b981-2f0e131f71d0">
+                            <!-- <div class="mb-3">
+                              <label for="exampleFormControlTextarea1" class="form-label">Name</label>
+                              <input type="text" class="form-control" id="inputName" placeholder="Name">
+                            </div>
+                            <div class="mb-3">
+                              <label for="exampleFormControlTextarea1" class="form-label">Contact number</label>
+                              <input type="text" class="form-control" id="inputNumber" placeholder="Contact Number">
+                            </div>
                               <div class="mb-3">
-                              <label for="exampleFormControlInput1" class="form-label">Email address</label>
-                              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                              <label for="inputEmail4" class="form-label">Email address</label>
+                              <input type="email" class="form-control" id="inputEmail4" placeholder="name@example.com">
+                            </div> -->
+                            <div class="mb-3">
+                              <label for="exampleFormControlTextarea1" class="form-label">Name</label>
+                              <input type="text" class="form-control" name="name" placeholder="Name"></textarea>
+                            </div>
+                            <div class="mb-3">
+                              <label for="exampleFormControlTextarea1" class="form-label">E-mail</label>
+                              <input type="email" class="form-control" name="email" placeholder="E-mail Address"></textarea>
+                            </div>
+                            <div class="mb-3">
+                              <label for="exampleFormControlTextarea1" class="form-label">Contact Number</label>
+                              <input type="text" class="form-control" name="Contact" placeholder="Contact-No"></textarea>
                             </div>
                             <div class="mb-3">
                               <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
-                              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="message"></textarea>
                             </div>
-                          </form>
-                          <div class="d-grid gap-2">
-                              <button type="button" class="btn btn-info" href="">SUBMIT</button>
+                            <div class="d-grid gap-2">
+                              <button type="submit" class="btn btn-info" href="">SUBMIT</button>
                           </div>
+                          </form>
                       </div>
                   </div>  
 
