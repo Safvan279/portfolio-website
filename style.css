@@ -53,6 +53,15 @@ p {
   display: flex;
   justify-content: flex-end;
 }
+
+.search{
+  box-sizing: border-box;
+  background-color: white;
+  color: black;
+  border-radius: 0.5rem;
+  margin-top: 0.5rem;
+}
+
 .nav-link {
   color: black !important;
   font-size: larger !important;
@@ -147,7 +156,7 @@ ul {
   color: black;
   font-weight: bolder;
   scale: 1.1;;
-  animation: ease-in-out;
+  animation: 1s ease-in-out !important;
 }
 
 /* ------------------skills section ends here-------------------- */
@@ -375,6 +384,15 @@ ul {
   .dev-logo {
     margin-left: 10rem;
   }
+}
+@media (max-width: 1025px) {
+  .all-card{
+    height: 24rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+
 }
 
 /* -----------------------------MOBILE 320 ENDS HERE-------------------------------- */
