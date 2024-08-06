@@ -14,6 +14,9 @@ body {
   font-family: "Montserrat", sans-serif;
   background-image: url(89787.jpg) !important;
 }
+body h1{
+  color: white;
+}
 .mt-15 {
   margin-top: 2rem;
 }
@@ -58,10 +61,7 @@ p {
   font-size: larger !important;
 
 } 
-/* .nav-link:hover{
-  text-decoration: underline !important;
-  transition: 0.3s ease-in-out;
-} */
+
 
 .nav-link {
   text-decoration: none;
@@ -191,7 +191,7 @@ ul {
 /* ------------------skills section ends here-------------------- */
 
 .contact {
-  padding: 3rem;
+  padding: 2rem;
   color: white;
 }
 .projects {
@@ -278,6 +278,42 @@ ul {
   background-color: #112b3c;
   color: white;
 }
+
+
+
+.certificates{
+  margin-left: 2rem;
+}
+.cer{
+  /* display: flex;flex-direction: row; */
+  gap: 1rem;
+
+}
+
+.cer-item img{
+  width: 20rem;
+  display: flex;
+  /* flex-direction: row !important; */
+  aspect-ratio: 3/2;
+  gap: 3rem !important;
+  margin: 4rem;
+}
+.info{
+  display: flex;
+  color: white;
+
+}
+.info p{
+  color: white;
+}
+.info1{
+  margin-left: 3rem;
+  margin-top: 3rem;
+}
+.info1 a:hover{
+  color: blue !important;
+}
+
 /* ------------------media query  section starts here-------------------- */
 
 /* -------------------MOBILE 768 STARTS HERE -------------------------------*/
@@ -372,6 +408,9 @@ ul {
   }
   .dev-logo {
     margin-left: 16rem;
+  }
+  .info p{
+    /* display: none; */
   }
 }
 
