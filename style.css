@@ -12,7 +12,10 @@
 }
 body {
   font-family: "Montserrat", sans-serif;
-  background-image: url(89787.jpg) !important;
+  background-color: #110011 !important;
+
+  background-repeat: no-repeat;
+  width: fit-content;
 }
 body h1{
   color: white;
@@ -37,6 +40,8 @@ h1 {
   flex-direction: column;
   color: white;
   padding: 23rem 0rem;
+  background-image: url(hacker\ bg);
+
 }
 h1 {
   font-weight: 700 !important;
@@ -67,7 +72,7 @@ p {
   text-decoration: none;
   color: #333;
   position: relative;
-  transition: color 0.2s ease;
+  transition: color 0.2s ease-in-out;
 }
 
 .nav-link:before {
@@ -129,7 +134,26 @@ a {
 .sub {
   color: white;
   font-family: "Lobster", sans-serif;
+
 }
+
+.sub h3{
+  animation: slideBottom 1s ease forwards;
+  animation-delay: .7s;
+}
+
+.sub h3:nth-last-of-type(2){
+  margin-bottom: 30px;
+  animation: slideTop 1s ease forwards;
+  animation-delay: .7s;
+}
+
+.home-content h3 span{
+  color:#0ef !important;
+}
+
+
+
 .fs-2 {
   font-family: "Abril Fatface", serif;
   font-size: 3.5rem;
@@ -472,6 +496,7 @@ ul {
     flex-wrap: wrap;
     justify-content: center;
     width: 15rem;
+    align-items: center;
   }
 }
 
