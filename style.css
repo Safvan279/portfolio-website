@@ -12,10 +12,7 @@
 }
 body {
   font-family: "Montserrat", sans-serif;
-  background-color: #110011 !important;
-
-  background-repeat: no-repeat;
-  width: fit-content;
+  background-image: url(/newbg.jpg) !important;
 }
 body h1{
   color: white;
@@ -40,8 +37,6 @@ h1 {
   flex-direction: column;
   color: white;
   padding: 23rem 0rem;
-  background-image: url(hacker\ bg);
-
 }
 h1 {
   font-weight: 700 !important;
@@ -72,7 +67,7 @@ p {
   text-decoration: none;
   color: #333;
   position: relative;
-  transition: color 0.2s ease-in-out;
+  transition: color 0.2s ease;
 }
 
 .nav-link:before {
@@ -134,26 +129,7 @@ a {
 .sub {
   color: white;
   font-family: "Lobster", sans-serif;
-
 }
-
-.sub h4{
-  animation: slideBottom 1s ease forwards;
-  animation-delay: .7s;
-}
-
-.sub h3:nth-last-of-type(2){
-  margin-bottom: 30px;
-  animation: slideTop 1s ease forwards;
-  animation-delay: .7s;
-}
-
-.home-content h3 span{
-  color:#0ef !important;
-}
-
-
-
 .fs-2 {
   font-family: "Abril Fatface", serif;
   font-size: 3.5rem;
@@ -257,18 +233,18 @@ ul {
 }
 
 .btn-info {
-  --bs-btn-bg: #2c7c80 !important;
+  --bs-btn-bg: #FFF6E9 !important;
   --bs-btn-color: white !important;
-  --bs-btn-hover-bg: #1dadb4 !important;
-  --bs-btn-active-bg: #0e3235 !important;
+  --bs-btn-hover-bg: #e8ddcf !important;
+  --bs-btn-active-bg: #ebeaea !important;
   --bs-btn-hover-color: white !important;
 }
 
 .btn-primary {
-  --bs-btn-bg: #112b3c !important;
+  --bs-btn-bg: #FFF6E9 !important;
   --bs-btn-color: white !important;
-  --bs-btn-hover-bg: #112b3c !important;
-  --bs-btn-active-bg: #0e3235 !important;
+  --bs-btn-hover-bg: #c3bfba !important;
+  --bs-btn-active-bg: #b7afa5 !important;
   --bs-btn-hover-color: white !important;
 }
 .resume1 h1 {
@@ -496,7 +472,6 @@ ul {
     flex-wrap: wrap;
     justify-content: center;
     width: 15rem;
-    align-items: center;
   }
 }
 
