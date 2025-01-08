@@ -14,7 +14,7 @@ body {
   font-family: "Montserrat", sans-serif;
   background-image: url(/newbg.jpg) !important;
 }
-body h1{
+body h1 {
   color: white;
 }
 .mt-15 {
@@ -59,9 +59,7 @@ p {
 .nav-link {
   color: black !important;
   font-size: larger !important;
-
-} 
-
+}
 
 .nav-link {
   text-decoration: none;
@@ -92,16 +90,14 @@ p {
   text-decoration: none;
 }
 
-
 a {
   text-decoration: none !important;
 }
-  a:hover {
-    color: black !important;
-    font-size: large;
-    font-weight: bolder !important;
-    
-  }
+a:hover {
+  color: black !important;
+  font-size: large;
+  font-weight: bolder !important;
+}
 
 .head a {
   text-decoration: none !important;
@@ -176,8 +172,6 @@ ul {
   padding: 1rem;
 }
 
-
-
 .skills li:hover {
   font-family: "Inter", sans-serif;
   background-color: white;
@@ -185,7 +179,6 @@ ul {
   font-weight: bolder;
   scale: 1.1;
   transition: 0.3s ease-in;
-
 }
 
 /* ------------------skills section ends here-------------------- */
@@ -213,7 +206,9 @@ ul {
   display: flex;
   gap: 1rem;
 }
-
+.card img {
+  height: 10rem;
+}
 .white {
   color: white !important;
   background-color: #1dadb4 !important;
@@ -233,7 +228,7 @@ ul {
 }
 
 .btn-info {
-  --bs-btn-bg: #FFF6E9 !important;
+  --bs-btn-bg: #fff6e9 !important;
   --bs-btn-color: white !important;
   --bs-btn-hover-bg: #e8ddcf !important;
   --bs-btn-active-bg: #ebeaea !important;
@@ -241,7 +236,7 @@ ul {
 }
 
 .btn-primary {
-  --bs-btn-bg: #FFF6E9 !important;
+  --bs-btn-bg: #fff6e9 !important;
   --bs-btn-color: white !important;
   --bs-btn-hover-bg: #c3bfba !important;
   --bs-btn-active-bg: #b7afa5 !important;
@@ -279,18 +274,16 @@ ul {
   color: white;
 }
 
-
-
-.certificates{
+.certificates {
   margin-left: 2rem;
+  margin-top: 5rem;
 }
-.cer{
+.cer {
   /* display: flex;flex-direction: row; */
   gap: 1rem;
-
 }
 
-.cer-item img{
+.cer-item img {
   width: 20rem;
   display: flex;
   /* flex-direction: row !important; */
@@ -298,19 +291,19 @@ ul {
   gap: 3rem !important;
   margin: 4rem;
 }
-.info{
+.info {
   display: flex;
-  color: white;
-
-}
-.info p{
+  flex-wrap: wrap;
   color: white;
 }
-.info1{
+.info p {
+  color: white;
+}
+.info1 {
   margin-left: 3rem;
   margin-top: 3rem;
 }
-.info1 a:hover{
+.info1 a:hover {
   color: blue !important;
 }
 
@@ -318,8 +311,8 @@ ul {
 
 /* -------------------MOBILE 768 STARTS HERE -------------------------------*/
 
-@media (max-width: 1024px){
-  .all-card{
+@media (max-width: 1024px) {
+  .all-card {
     display: flex;
     flex-wrap: wrap;
   }
@@ -356,7 +349,7 @@ ul {
   }
   .all-card {
     display: flex;
-    flex-direction: column ;
+    flex-direction: column;
     gap: 1rem;
     align-items: center;
     justify-content: center;
@@ -409,9 +402,6 @@ ul {
   .dev-logo {
     margin-left: 16rem;
   }
-  .info p{
-    /* display: none; */
-  }
 }
 
 /* -------------------MOBILE 425 ENDS HERE -------------------------------*/
@@ -446,8 +436,7 @@ ul {
 /*------------------------------ MOBILE 320 STARTS HERE------------------------------- */
 
 @media (max-width: 321px) {
-
-  *{
+  * {
     padding: 0;
     margin: 0;
   }
@@ -466,7 +455,7 @@ ul {
   .dev-logo {
     margin-left: 10rem;
   }
-  .all-card{
+  .all-card {
     display: flex;
     gap: 1rem;
     flex-wrap: wrap;
